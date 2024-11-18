@@ -186,4 +186,27 @@ header .button .btn:hover{
     width: 300px;
     height: 296px;
     border-radius: 50%;
+    rotate: 40deg;
+}
+ 
+
+.social-media {
+    list-style: none; /* Remove default list styling */
+    padding: 0;  /* Remove default padding */
+    text-align: center;
+}
+
+.social-media li {
+    display: inline-block;  /* Display list items inline for horizontal layout */
+    margin: 0 10px;  /* Add space between social links */
+}
+
+.social-media a {
+    color: inherit;  /* Inherit color from parent element */
+}
+
+/* Font Awesome icon styles (adjust as needed) */
+.fa-brands {
+    font-size: 20px;
+    color: #333;
 }
