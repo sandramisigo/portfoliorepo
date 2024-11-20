@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
         <div class="logo"><h2>Sandra.</h2></div>
+        </header>
+    <section id="navigation">
         <div class="navbar">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -17,35 +19,34 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <div class="left">
-                <div class="image">
-                    <img src="sandra.jpeg" alt="me"/>
-                </div>
-            </div>
         </div>
         <div class="button">
-            <button class="btn">Hire Me</button>
-        </div>
-    </header>
-    <!-- Hero Section -->
-    <div class="hero">
-        <section>
-            <div class="right">
-            <h1>Hi, I am Sandra Misigo.</h1>
-            <h2>A Software Engineer!</h2>
-            <p>As a young lady born and raised in Kenya, I believe software engineering can be more diverse and inspiring. With a mission to increase the possibilities of web design, I am pursuing new expressions through experiments and thoughts.   
-            </p>
-            <br>
-            <br>
-            <br>
-            <br>
+                <button class="btn">Hire Me</button>
+            </div>
+        </section>
+                
+
+    <!-- Home Section -->
+      
+    <section id="image">
+            <div class="image">
+                <h1>Hi, I am Sandra Misigo.</h1> 
+                <img src="sandra.jpeg" alt="me"/>
+                <figcaption> 
+                    As a young lady born and raised in Kenya, I believe software engineering can be more diverse and inspiring. With a mission to increase the possibilities of web design, I am pursuing new expressions through experiments and thoughts.   
+                    </figcaption>
+            </div>
+            
+
             <div class="button">
                 <button class="h-btn">Reach Out</button>
                 <br>
                 <br>
                 <button class="h-btn">Let's Have a Talk'</button>
             </div>
+            </div>
         </section>
+
      <main>
          <section id="about">
             <h2>About</h2>
@@ -56,21 +57,24 @@
 
         <section id="skills">
             <h2>Skills</h2>
-            <p>Over the years, i have developed essential skills to help me navigate the tech world easily. These include:</p>
-            <ul>
-                <li><b>Technical Skills</b></li>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-                <br>
-                <li> <b>Non Technical Skills</b></li>
-                <ul>
-                    <li>Problem Solving</li>
-                    <li>Freelance writer</li>
-                </ul>
-            </ul>
+            <div class="skills-container">
+                <div class="skill-column">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <h3>Non-Technical Skills</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Freelance Writing</li>
+                    </ul>
+                </div>
+            </div>
         </section>
+        
 
         <br>
 
@@ -100,4 +104,6 @@
 
     </main>
 </body>
-</html>
+
+</html> 
+       
