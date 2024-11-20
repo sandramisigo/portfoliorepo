@@ -285,3 +285,21 @@ header .logo h2 {
 .social-media a:hover {
     color: #120db2;
 }
+#Project {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#Project img {
+    margin: 20px 0;
+    width: 300px; ;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;}
+
+#Project h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: black;
+    }
